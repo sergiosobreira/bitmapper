@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Bitmapper.Implementations;
+
+Console.WriteLine("Hello bitmappers!");
+
+SystemDrawing.Run();
+MicrosoftMauiGraphicsSkia.Run();
